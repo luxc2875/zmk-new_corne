@@ -59,6 +59,36 @@
             bindings = <&soft_off>;
             key-positions = <1 15 29>;
         };
+
+        homerow-lsft {
+            bindings = <&kp LSHFT>;
+            key-positions = <14 17>;
+        };
+
+        homerow-lctl {
+            bindings = <&kp LCTRL>;
+            key-positions = <14 16>;
+        };
+
+        homerow-lalt {
+            bindings = <&kp LALT>;
+            key-positions = <14 15>;
+        };
+
+        homerow-rsft {
+            bindings = <&kp RSHFT>;
+            key-positions = <23 26>;
+        };
+
+        homerow-rctl {
+            bindings = <&kp RCTRL>;
+            key-positions = <26 24>;
+        };
+
+        homerow-ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <26 25>;
+        };
     };
 
     keymap {
@@ -67,10 +97,10 @@
         default_layer {
             display-name = "Gallium";
             bindings = <
-&kp TAB         &kp B  &kp L  &kp D       &kp C            &kp V                             &kp UP                &kp J        &kp Y        &kp O              &kp U          &kp COMMA   &kp BSPC
-&kp LEFT_SHIFT  &kp N  &kp R  &kp T       &kp S            &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P        &kp H        &kp A              &kp E          &kp I       &kp SLASH
-&kp LCTRL       &kp X  &kp Q  &kp M       &kp W            &kp Z      &kp SPACE              &kp DOWN              &kp K        &kp F        &kp SQT            &kp SEMICOLON  &kp PERIOD  &kp ESC
-                              &kp ESCAPE  &lt 4 BACKSPACE  &lt 1 TAB                                               &lt 6 ENTER  &lt 5 SPACE  &lt 7 RIGHT_SHIFT
+&kp TAB    &kp B  &kp L  &kp D      &kp C        &kp V                             &kp UP                &kp J         &kp Y        &kp O            &kp U          &kp COMMA   &kp BSPC
+&kp EQUAL  &kp N  &kp R  &kp T      &kp S        &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &kp H        &kp A            &kp E          &kp I       &kp SLASH
+&kp LCTRL  &kp X  &kp Q  &kp M      &kp W        &kp Z      &kp SPACE              &kp DOWN              &kp K         &kp F        &kp SQT          &kp SEMICOLON  &kp PERIOD  &kp ESC
+                         &kp MINUS  &lt 4 ENTER  &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE  &lt 7 BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
