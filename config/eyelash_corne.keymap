@@ -28,9 +28,15 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-&lt { tapping-term-ms = <100>; };
+&lt {
+    tapping-term-ms = <100>;
+    retro-tap;
+};
 
-&mt { tapping-term-ms = <100>; };
+&mt {
+    tapping-term-ms = <100>;
+    retro-tap;
+};
 
 / {
     behaviors {
@@ -67,25 +73,25 @@
         homerow-lsft {
             bindings = <&kp LSHFT>;
             key-positions = <14 17>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
         };
 
         homerow-lctl {
             bindings = <&kp LCTRL>;
             key-positions = <14 16>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
         };
 
         homerow-lalt {
             bindings = <&kp LALT>;
             key-positions = <14 15>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
         };
 
         homerow-rsft {
             bindings = <&kp RSHFT>;
             key-positions = <23 26>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
         };
 
         homerow-rctl {
@@ -97,13 +103,13 @@
         homerow-ralt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <26 25>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
         };
 
         hr-enter {
             bindings = <&kp ENTER>;
             key-positions = <23 24 25>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
         };
     };
 
