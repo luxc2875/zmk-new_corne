@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   Gallium:
-  - {t: '-', s: _}
+  - $$mdi:keyboard-esc$$
   - B
   - L
   - D
@@ -42,7 +42,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: ;, s: ':'}
   - .
-  - {t: \, h: RIGHT GUI, s: '|'}
+  - RIGHT GUI
   - {t: '-', s: _}
   - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:keyboard-tab$$', h: HW}
@@ -409,3 +409,7 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [23, 24, 25]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [15, 16]
+  k: {t: '-', s: _}
+- p: [24, 25]
+  k: {t: \, s: '|'}
