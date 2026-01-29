@@ -111,6 +111,18 @@
             key-positions = <23 24 25>;
             timeout-ms = <30>;
         };
+
+        hyphen {
+            bindings = <&kp MINUS>;
+            key-positions = <15 16>;
+            timeout-ms = <50>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <24 25>;
+            timeout-ms = <50>;
+        };
     };
 
     keymap {
@@ -119,9 +131,9 @@
         default_layer {
             display-name = "Gallium";
             bindings = <
-&kp MINUS             &kp B  &kp L  &kp D      &kp C        &kp V                             &kp UP                &kp J         &kp Y        &kp O            &kp U          &kp COMMA   &kp BSPC
+&kp ESCAPE            &kp B  &kp L  &kp D      &kp C        &kp V                             &kp UP                &kp J         &kp Y        &kp O            &kp U          &kp COMMA   &kp BSPC
 &mt LEFT_SHIFT EQUAL  &kp N  &kp R  &kp T      &kp S        &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &kp H        &kp A            &kp E          &kp I       &kp SLASH
-&kp LCTRL             &kp X  &kp Q  &kp M      &kp W        &kp Z      &kp SPACE              &kp DOWN              &kp K         &kp F        &kp SQT          &kp SEMICOLON  &kp PERIOD  &mt RIGHT_GUI BACKSLASH
+&kp LCTRL             &kp X  &kp Q  &kp M      &kp W        &kp Z      &kp SPACE              &kp DOWN              &kp K         &kp F        &kp SQT          &kp SEMICOLON  &kp PERIOD  &kp RIGHT_GUI
                                     &kp MINUS  &lt 4 ENTER  &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE  &lt 7 BACKSLASH
             >;
 
