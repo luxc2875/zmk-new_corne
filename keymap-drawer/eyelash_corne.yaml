@@ -15,33 +15,33 @@ layers:
   - {t: ',', s: <}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - N
+  - R
+  - T
+  - S
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - P
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: I, h: RIGHT GUI}
+  - H
+  - A
+  - E
+  - I
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - X
-  - Q
-  - M
-  - W
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: M, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: W, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - K
-  - F
-  - {t: '''', s: '"'}
-  - {t: ;, s: ':'}
-  - .
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - {t: ., h: RIGHT GUI}
   - RIGHT GUI
   - {t: '-', s: _}
   - {t: '$$mdi:keyboard-return$$', h: NAV}
