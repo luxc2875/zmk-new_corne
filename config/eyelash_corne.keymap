@@ -36,6 +36,7 @@
 &mt {
     retro-tap;
     flavor = "tap-preferred";
+    tapping-term-ms = <100>;
 };
 
 / {
@@ -136,10 +137,10 @@
         default_layer {
             display-name = "Gallium";
             bindings = <
-&kp ESCAPE            &kp B           &kp L           &kp D        &kp C             &kp V                             &kp UP                &kp J         &kp Y        &kp O            &kp U            &kp COMMA        &kp BSPC
-&mt LEFT_SHIFT EQUAL  &mt LEFT_GUI N  &mt LEFT_ALT R  &mt LCTRL T  &mt LEFT_SHIFT S  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &mt RSHFT H  &mt RCTRL A      &mt RIGHT_ALT E  &mt RIGHT_GUI I  &kp SLASH
-&kp LCTRL             &kp X           &kp Q           &kp M        &kp W             &kp Z      &kp SPACE              &kp DOWN              &kp K         &kp F        &kp SQT          &kp SEMICOLON    &kp PERIOD       &kp RIGHT_GUI
-                                                      &kp MINUS    &lt 4 ENTER       &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE  &lt 7 BACKSLASH
+&kp ESCAPE            &kp B           &kp L           &kp D        &kp C             &kp V                             &kp UP                &kp J         &kp Y              &kp O            &kp U                    &kp COMMA             &kp BSPC
+&mt LEFT_SHIFT EQUAL  &kp N           &kp R           &kp T        &kp S             &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &kp H              &kp A            &kp E                    &kp I                 &kp SLASH
+&kp LCTRL             &mt LEFT_GUI X  &mt LEFT_ALT Q  &mt RCTRL M  &mt LEFT_SHIFT W  &kp Z      &kp SPACE              &kp DOWN              &kp K         &mt RIGHT_SHIFT F  &mt RCTRL SQT    &mt RIGHT_ALT SEMICOLON  &mt RIGHT_GUI PERIOD  &kp RIGHT_GUI
+                                                      &kp MINUS    &lt 4 ENTER       &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE        &lt 7 BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
