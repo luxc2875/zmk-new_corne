@@ -36,7 +36,7 @@
 &mt {
     tapping-term-ms = <70>;
     retro-tap;
-    flavor = "balanced";
+    flavor = "tap-preferred";
 };
 
 / {
