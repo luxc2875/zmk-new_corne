@@ -15,19 +15,19 @@ layers:
   - {t: ',', s: <}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
-  - N
-  - R
-  - T
-  - S
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - P
-  - H
-  - A
-  - E
-  - I
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: RIGHT GUI}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - X
@@ -413,3 +413,5 @@ combos:
   k: {t: '-', s: _}
 - p: [24, 25]
   k: {t: \, s: '|'}
+- p: [18, 22]
+  k: $$mdi:alpha-w-box$$
