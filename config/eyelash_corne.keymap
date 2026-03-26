@@ -153,10 +153,10 @@
         default_layer {
             display-name = "Gallium";
             bindings = <
-&kp ESCAPE            &kp B            &kp L            &kp D         &kp C              &kp V                             &kp UP                &kp J         &kp Y               &kp O            &kp U                     &kp COMMA              &kp BSPC
-&mt LEFT_SHIFT EQUAL  &kp N            &kp R            &kp T         &kp S              &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &kp H               &kp A            &kp E                     &kp I                  &kp SLASH
-&kp MINUS             &mtl LEFT_GUI X  &mtl LEFT_ALT Q  &mtl RCTRL M  &mtl LEFT_SHIFT W  &kp Z      &kp SPACE              &kp DOWN              &kp K         &mtr RIGHT_SHIFT F  &mtr RCTRL SQT   &mtr RIGHT_ALT SEMICOLON  &mtr RIGHT_GUI PERIOD  &kp BACKSLASH
-                                                        &kp MINUS     &lt 4 ENTER        &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE         &lt 7 BACKSLASH
+&kp ESCAPE  &kp B            &kp L            &kp D                &kp C              &kp V                             &kp UP                &kp J         &kp Y               &kp O                 &kp U             &kp COMMA         &kp BSPC
+&kp EQUAL   &mtl LEFT_GUI N  &mtl LEFT_ALT R  &mtl LEFT_CONTROL T  &mtl LEFT_SHIFT S  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &mtr RIGHT_SHIFT H  &mtr RIGHT_CONTROL A  &mtr RIGHT_ALT E  &mtr RIGHT_GUI I  &kp SLASH
+&kp MINUS   &kp X            &kp Q            &kp M                &kp W              &kp Z      &kp SPACE              &kp DOWN              &kp K         &kp F               &kp SQT               &kp SEMICOLON     &kp PERIOD        &kp BACKSLASH
+                                              &kp MINUS            &lt 4 ENTER        &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE         &lt 7 BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
