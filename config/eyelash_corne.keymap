@@ -159,7 +159,7 @@
                                                         &kp MINUS     &lt 4 ENTER        &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE         &lt 7 BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         hardware {
