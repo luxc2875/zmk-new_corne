@@ -29,7 +29,7 @@ layers:
   - E
   - I
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '-', s: _}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Q, h: '$$mdi:apple-keyboard-option$$'}
   - {t: M, h: '$$mdi:apple-keyboard-control$$'}
@@ -42,7 +42,7 @@ layers:
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: ., h: RIGHT GUI}
-  - RIGHT GUI
+  - {t: \, s: '|'}
   - {t: '-', s: _}
   - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:keyboard-tab$$', h: HW}
@@ -409,9 +409,5 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [23, 24, 25]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [15, 16]
-  k: {t: '-', s: _}
-- p: [24, 25]
-  k: {t: \, s: '|'}
 - p: [18, 22]
   k: $$mdi:alpha-w-box$$
