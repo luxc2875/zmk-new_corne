@@ -156,7 +156,7 @@
 &kp ESCAPE  &kp B            &kp L            &kp D                &kp C              &kp V                             &kp UP                &kp J         &kp Y               &kp O                 &kp U             &kp COMMA         &kp BSPC
 &kp EQUAL   &mtl LEFT_GUI N  &mtl LEFT_ALT R  &mtl LEFT_CONTROL T  &mtl LEFT_SHIFT S  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &mtr RIGHT_SHIFT H  &mtr RIGHT_CONTROL A  &mtr RIGHT_ALT E  &mtr RIGHT_GUI I  &kp SLASH
 &kp MINUS   &kp X            &kp Q            &kp M                &kp W              &kp Z      &kp SPACE              &kp DOWN              &kp K         &kp F               &kp SQT               &kp SEMICOLON     &kp PERIOD        &kp BACKSLASH
-                                              &kp MINUS            &lt 4 ENTER        &lt 1 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE         &lt 7 BACKSLASH
+                                              &lt 1 MINUS          &lt 4 ENTER        &lt 8 TAB                                               &lt 6 ESCAPE  &lt 5 SPACE         &lt 7 BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -240,6 +240,15 @@
             >;
 
             label = "FUN";
+        };
+
+        sym_assist {
+            bindings = <
+&trans  &trans    &trans        &trans     &trans     &trans                    &trans          &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &trans  &trans
+&trans  &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans  &trans
+&trans  &trans    &trans        &trans     &trans     &trans  &trans            &trans          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans  &trans
+                                &trans     &trans     &trans                                    &trans  &trans                &trans
+            >;
         };
     };
 };
