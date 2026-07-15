@@ -41,6 +41,8 @@
     hold-trigger-key-positions = <>;
 };
 
+&sk { quick-release; };
+
 / {
     behaviors {
         td0: td0 {
@@ -212,7 +214,7 @@
         num {
             bindings = <
 &trans  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET                    &trans          &trans  &trans           &trans     &trans         &trans         &trans
-&trans  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL                    &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
+&trans  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL                    &trans  &trans  &trans  &trans  &sk RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
 &trans  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &trans            &trans          &trans  &trans           &trans     &trans         &trans         &trans
                                         &kp PERIOD    &kp N0        &kp MINUS                                            &trans  &trans           &trans
             >;
