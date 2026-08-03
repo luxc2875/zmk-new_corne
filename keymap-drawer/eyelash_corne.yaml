@@ -44,7 +44,7 @@ layers:
   - .
   - {t: \, s: '|'}
   - {t: '-', h: HW, s: _}
-  - {t: '$$mdi:keyboard-return$$', h: NAV}
+  - {t: '$$mdi:keyboard-tab$$', h: NAV}
   - '&td_shift'
   - {t: '$$mdi:keyboard-esc$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
@@ -446,7 +446,7 @@ combos:
   k: '&soft_off'
 - p: [15, 16]
   k: $$mdi:keyboard-tab$$
-- p: [23, 24, 25]
+- p: [23, 24]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [18, 22]
   k: $$mdi:alpha-w-box$$
