@@ -44,8 +44,8 @@ layers:
   - .
   - {t: \, s: '|'}
   - {t: '-', h: HW, s: _}
-  - '&td_shift'
   - {t: '$$mdi:keyboard-tab$$', h: NAV}
+  - '&td_shift'
   - {t: '$$mdi:keyboard-esc$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: \, h: FUN, s: '|'}
@@ -240,8 +240,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
