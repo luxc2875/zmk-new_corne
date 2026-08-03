@@ -95,8 +95,9 @@
 
         hr-enter {
             bindings = <&kp ENTER>;
-            key-positions = <23 24 25>;
+            key-positions = <23 24>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <100>;
         };
 
         word-cap {
@@ -114,7 +115,7 @@
 &kp ESCAPE  &kp B            &kp L            &kp D                &kp C              &kp V                             &kp UP                &kp J         &kp Y               &kp O                 &kp U             &kp COMMA         &kp BSPC
 &kp EQUAL   &mtl LEFT_GUI N  &mtl LEFT_ALT R  &mtl LEFT_CONTROL T  &mtl LEFT_SHIFT S  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp P         &mtr RIGHT_SHIFT H  &mtr RIGHT_CONTROL A  &mtr RIGHT_ALT E  &mtr RIGHT_GUI I  &kp SLASH
 &kp MINUS   &kp X            &kp Q            &kp M                &kp W              &kp Z      &kp SPACE              &kp DOWN              &kp K         &kp F               &kp SQT               &kp SEMICOLON     &kp PERIOD        &kp BACKSLASH
-                                              &lt 1 MINUS          &lt 4 ENTER        &td_shift                                               &lt 6 ESCAPE  &lt 5 SPACE         &lt 7 BACKSLASH
+                                              &lt 1 MINUS          &lt 4 TAB          &td_shift                                               &lt 6 ESCAPE  &lt 5 SPACE         &lt 7 BACKSLASH
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
