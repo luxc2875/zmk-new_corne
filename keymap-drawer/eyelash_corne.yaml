@@ -29,7 +29,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-option$$'}
   - {t: I, h: RIGHT GUI}
   - {t: /, s: '?'}
-  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-option$$
   - X
   - Q
   - M
