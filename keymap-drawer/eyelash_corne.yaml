@@ -445,11 +445,9 @@ combos:
 - p: [1, 15, 29]
   k: '&soft_off'
 - p: [15, 16]
-  k: \
+  k: {t: \, s: '|'}
 - p: [2, 3]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [18, 22]
-  k: $$mdi:alpha-w-box$$
 - p: [23, 24]
   k: {t: (, s: <}
 - p: [24, 25]
