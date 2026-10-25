@@ -223,7 +223,6 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -234,9 +233,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
   - PgDn
   - PgUp
-  - {t: '$$mdi:transfer$$', type: trans}
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -445,8 +445,22 @@ combos:
 - p: [1, 15, 29]
   k: '&soft_off'
 - p: [15, 16]
-  k: $$mdi:keyboard-tab$$
-- p: [23, 24]
+  k: \
+- p: [2, 3]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [18, 22]
   k: $$mdi:alpha-w-box$$
+- p: [23, 24]
+  k: {t: (, s: <}
+- p: [24, 25]
+  k: {t: ), s: '>'}
+- p: [37, 38]
+  k: {t: '[', s: '{'}
+- p: [38, 39]
+  k: {t: ']', s: '}'}
+- p: [16, 17]
+  k: {t: /, s: '?'}
+- p: [30, 31]
+  k: {t: '-', s: _}
+- p: [32, 31]
+  k: {t: '=', s: +}
